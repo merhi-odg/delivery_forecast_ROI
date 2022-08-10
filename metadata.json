@@ -1,0 +1,9 @@
+{
+    "tags": [],
+    "name": "Delivery Forecast: ROI",
+    "description": "Model to Compute Actual ROI on a delivery forecast model",
+    "modelCategory": "MODEL_MONITORING_MODEL",
+    "defaultAssociationRole": "PERFORMANCE_MODEL",
+    "frequentlyUsed": true,
+    "custom" : {}
+}

@@ -1,0 +1,9 @@
+{
+    "COST_OF_ONE_SURPLUS": 1000,
+    "COST_OF_ONE_DEFICIT": 1500,
+    "COST_OF_ONE_HUMAN_INFERENCE": 10,
+    "COST_OF_ONE_MODEL_INFERENCE": 1,
+    "ACTUALS_FIELD": "actual_deliveries",
+    "MODEL_PRED_FIELD": "predicted_deliveries",
+    "HUMAN_PRED_FIELD": "human_forecast"
+}

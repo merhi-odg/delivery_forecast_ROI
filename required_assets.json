@@ -1,0 +1,18 @@
+[
+    {
+        "usage": "INPUT_ASSET",
+        "assetRole": "COMPARATOR_DATA",
+        "metaData": {
+            "description": "Slice of Production Data"
+        }
+    },
+    {
+        "usage": "ADDITIONAL_ASSET",
+        "assetRole":"UNKNOWN",
+        "name": ".*\\.json",
+        "filename": "model_parameters.json",
+        "metaData": {
+            "description": "Monitoring Parameters File"
+        }
+    }
+]

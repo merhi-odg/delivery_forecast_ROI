@@ -1,0 +1,10 @@
+{"forecast_ID": "AUG012022", "forecast_date": "08/01/2022", "actual_deliveries": 42, "predicted_deliveries": 42, "human_forecast": 42}
+{"forecast_ID": "AUG022022", "forecast_date": "08/02/2022", "actual_deliveries": 43, "predicted_deliveries": 44, "human_forecast": 45}
+{"forecast_ID": "AUG032022", "forecast_date": "08/03/2022", "actual_deliveries": 44, "predicted_deliveries": 43, "human_forecast": 42}
+{"forecast_ID": "AUG042022", "forecast_date": "08/04/2022", "actual_deliveries": 45, "predicted_deliveries": 47, "human_forecast": 49}
+{"forecast_ID": "AUG052022", "forecast_date": "08/05/2022", "actual_deliveries": 46, "predicted_deliveries": 44, "human_forecast": 42}
+{"forecast_ID": "AUG082022", "forecast_date": "08/08/2022", "actual_deliveries": 44, "predicted_deliveries": 44, "human_forecast": 44}
+{"forecast_ID": "AUG092022", "forecast_date": "08/09/2022", "actual_deliveries": 46, "predicted_deliveries": 48, "human_forecast": 50}
+{"forecast_ID": "AUG102022", "forecast_date": "08/10/2022", "actual_deliveries": 48, "predicted_deliveries": 46, "human_forecast": 44}
+{"forecast_ID": "AUG112022", "forecast_date": "08/11/2022", "actual_deliveries": 50, "predicted_deliveries": 54, "human_forecast": 58}
+{"forecast_ID": "AUG122022", "forecast_date": "08/12/2022", "actual_deliveries": 52, "predicted_deliveries": 48, "human_forecast": 44}
