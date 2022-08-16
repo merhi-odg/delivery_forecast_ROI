@@ -44,10 +44,6 @@ def metrics(data: pandas.DataFrame) -> dict:
     data[["model_surplus", "human_surplus"]] *= COST_OF_ONE_SURPLUS
     data[["model_deficit", "human_deficit"]] *= COST_OF_ONE_DEFICIT
 
-    # Multiply by operation cost
-    data[["model_surplus", "model_deficit"]] *= COST_OF_ONE_MODEL_INFERENCE
-    data[["human_surplus", "human_deficit"]] *= COST_OF_ONE_HUMAN_INFERENCE
-
     # Compute totals
     sums = data.sum(axis=0)
 
@@ -56,8 +52,9 @@ def metrics(data: pandas.DataFrame) -> dict:
     human_surplus_total = sums["human_surplus"]
     human_deficit_total = sums["human_deficit"]
 
-    model_total_cost = model_surplus_total + model_deficit_total
-    human_total_cost = human_surplus_total + human_deficit_total
+    # Add Operation Cost
+    model_total_cost = model_surplus_total + model_deficit_total + COST_OF_ONE_MODEL_INFERENCE*data.shape[0]
+    human_total_cost = human_surplus_total + human_deficit_total + COST_OF_ONE_HUMAN_INFERENCE*data.shape[0]
 
     return {
         # Top-level key metrics
